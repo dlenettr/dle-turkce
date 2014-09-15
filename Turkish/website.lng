@@ -84,16 +84,16 @@ $lang = array (
 // 9.4
 'p_save'			=>	"Kaydet",
 'n_save_ok'			=>	"Değişiklikler başarıyla kaydedildi. Sayfa yenilensin mi?",
-'addnews_xf_alert'	=>	"Gerekli tüm alanlar doldurulmadı",
+'addnews_xf_alert'	=>	"Gerekli tüm alanlar doludrulmadı",
 'editnews_error'	=>	"Bu makaleyi düzenleme yetkiniz bulunmuyor.",
 'login_metod'		=>	"K.Adı:",
 'login_err_3'		=>	"Dikkat, siteye giriş yapılamadı.Geçersiz bir E-mail ya da şifre girmiş olabilirsiniz.",
 'xf_notig'			=>	"Zorunlu",
-'anti_modified'		=>  "не соответствует сделанному снимку",
-'anti_not'			=>  "неизвестен дистрибутиву",
-'anti_subj'			=>  "Результат проверки антивирусом Вашего сайта",
-'anti_message_1'	=>  "Уважаемый администратор, согласно Вашим установкам по крону была произведена проверка файлов на наличие посторонних или модифицированных файлов. По результатам проверки были обнаружены следующие подозрительные файлы:",
-'anti_message_2'	=>  "Настоятельно рекомендуется удалить неизвестные файлы и проверить модифицированные. Если не Вы вносили изменения в модифицированные файлы скрипта, восстановите оригинальные файлы скрипта. Если это Ваши изменения, то сделайте снимок файлов повторно в админпанели скрипта.",
+'anti_modified'		=>  "Mevcut kayıt ile uyuşmuyor",
+'anti_not'			=>  "Bilinmeyen dağıtıma ait dosya",
+'anti_subj'			=>  "Sitenizin antivirüs kontrol sonuçları",
+'anti_message_1'	=>  "Sayın yönetici, kron ayarlarına göre yapılan taramada izinsiz olarak değiştirilmiş dosyalar denetlendi. Şüpheli bulunan dosyaların listesi aşağıdadır :",
+'anti_message_2'	=>  "Silinen ve değiştirilen dosyaları şiddetle kontrol etmenizi öneririz. Eğer değiştirilmiş ise orjinal dosyaları geri yüklemeyi deneyin.",
 'big_text'			=>  "Çok uzun bir metin girildi.",
 'orfo_title'		=>  "Dilbilgisi hatası bulundu, bu hatayı yönetime bildirmek için yorum girin",
 'reg_err_24'        =>  "Güvenlik sorusunun cevabı yanlış",
@@ -136,7 +136,7 @@ $lang = array (
 'bb_list_item'		=>  "Listeye öğe ekleyin. Eklemeyi sonlandırmak için boş öğe girin.",
 'message_pm_4'		=>	"Makale moderasyon bildirimi",
 'message_pm_5'		=>	"Moderasyon onayı:",
-'message_pm_6'		=>	"При этом модератором Вам было отправлено следующее уведомление:",
+'message_pm_6'		=>	"Bu mesaj size moderatör tarafından gönderildi:",
 'btn_notice'		=>  "Yazara bildir",
 'p_send'			=>	"Gönder",
 'p_send_ok'			=>	"Bildirim başarıyla gönderildi",
@@ -156,12 +156,12 @@ $lang = array (
 'p_enter'			=>	"Gir",
 'p_cancel'			=>	"İptal",
 'news_err_42'		=>	"<li>Вы имеете доступ администратора, поэтому для изменения E-mail адреса или пароля на сайте, вам необходимо перейти в админпанель управления сайтом. Это сделано в целях безопасности. В админпанели перейдите в раздел управления пользователями, там найдите свой логин и проведите необходимые изменения</li>",
-'news_err_43'		=>	"Вы сможете добавить публикацию только через",
+'news_err_43'		=>	"Yeni makaleye ekleyebilmeniz için bu kadar süre beklemelisiniz",
 'news_err_44'		=>	"Вы достигли максимальное количество публикаций, которое вам разрешено добавлять на сайт в течении одного дня.",
 'bb_t_upload'		=>	"Sunucuya dosya yükle",
 'message_pm'		=>	"Makale silinme bildirimi",
 'message_pm_1'		=>	"Makaleniz",
-'message_pm_2'		=>	"была удалена с сайта модератором:",
+'message_pm_2'		=>	"Moderatör tarafından silindi:",
 'message_pm_3'		=>	"При этом модератором указаны следующие причины:",
 'fav_notfound_1'	=>	"На данной странице ваших закладок нет, вернитесь на предыдущие страницы.",
 'pm_err_10'			=>	"Вы не можете отправлять больше чем {max} персональных сообщений в сутки.",
@@ -212,9 +212,9 @@ $lang = array (
 // 8.2
 
 // 8.0
-'feed_err_8'		=>	"<li>Вы не можете отправлять данному пользователю E-Mail сообщений.</li>",
-'bb_flash'				=>	"Введите размеры флэш ролика (ширина, высота)",
-'bb_flash_url'			=>	"Введите ссылку на флэш ролик",
+'feed_err_8'		=>	"<li>Bu kullanıcıya E-Mail mesajı gönderemezsiniz.</li>",
+'bb_flash'				=>	"Flaşın boyutlarını girin (genişlik, yükseklik)",
+'bb_flash_url'			=>	"Flaşın linkini girin",
 'inset_flash_link'		=>	"Flaş ekle",
 // 8.0
 
@@ -277,14 +277,14 @@ $lang = array (
 // 6.5
 'time_heute'		=>	"Bugün",
 'time_gestern'		=>	"Dün",
-'thumb_expandtitle'	=>	"Развернуть до полного размера",
+'thumb_expandtitle'	=>	"Tam boyuta genişlet",
 'thumb_restore'		=>	"Кликните для закрытия картинки, нажмите и удерживайте для перемещения",
-'thumb_focustitle'	=>	"Сфокусировать",
-'thumb_cancel'		=>	"Нажмите для отмены",
+'thumb_focustitle'	=>	"Odakla",
+'thumb_cancel'		=>	"İptal etmek için tıklayın",
 'all_user_news'		=>	"Tüm makalelerini göster",
 'show_user_news'	=>	"Üyenin tüm makaleleri",
 'menu_fnews'		=>	"Tüm makalelerini bul",
-'reg_next'			=>	"Продолжить регистрацию на сайте",
+'reg_next'			=>	"Sitede kayıta devam et",
 'xf_not_notig'		=>	"Opsiyonel",
 // 6.5
 
@@ -436,25 +436,25 @@ $lang = array (
 'reg_ok_ajax'			=>	"Вы можете использовать данное имя для регистрации",
 
 'news_page_err'		=>	"К сожалению, данная страница для Вас не доступна: возможно, был изменен ее адрес или она была удалена. Пожалуйста, воспользуйтесь поиском.",
-'bb_t_up'			=>	"Загрузка файлов и изображений на сервер",
-'bb_b_up'			=>	"Загрузка",
-'next_moth'			=>	"Следующий месяц",
-'prev_moth'			=>	"Предыдущий месяц",
-'cal_post'			=>	"Все посты за",
-'title_users'		=>	"Пользователи",
-'title_new'			=>	"Непрочитанное",
-'title_date'		=>	"Материалы за",
-'title_stats'		=>	"Статистика сайта",
+'bb_t_up'			=>	"Sunucuya resim veya dosya yükle",
+'bb_b_up'			=>	"Yükle",
+'next_moth'			=>	"Sonraki ay",
+'prev_moth'			=>	"Önceki ay",
+'cal_post'			=>	"Tüm makaleler",
+'title_users'		=>	"Kullanıcılar",
+'title_new'			=>	"Okunmamış",
+'title_date'		=>	"Makaleler",
+'title_stats'		=>	"Site istatistikleri",
 'title_addnews'		=>	"Makale ekle",
-'title_register'	=>	"Регистрация посетителя",
+'title_register'	=>	"Ziyaretçi kayıt",
 'title_fav'			=>	"Мои закладки",
 'title_pm'			=>	"Kişisel mesajlar",
-'title_feed'		=>	"Обратная связь",
-'title_year'		=>	"год",
-'title_year1'		=>	"года",
-'vote_set'			=>	"Голосовать",
-'vote_result'		=>	"Результаты",
-'poll_failed'		=>	"Вы должны выбрать минимум один из вариантов опроса",
+'title_feed'		=>	"İletişim formu",
+'title_year'		=>	"Yıl",
+'title_year1'		=>	"Yıl",
+'vote_set'			=>	"Oy ver",
+'vote_result'		=>	"Sonuçlar",
+'poll_failed'		=>	"Anketten en az bir seçeneği seçmelisiniz",
 
 'excellent'		=>	"Mükemmel",
 'good'			=>	"Güzel",
@@ -596,7 +596,7 @@ $lang = array (
 'news_err_1'		=>	"Girdiğiniz kullanıcı adı çok uzun.",
 'news_err_2'		=>	"Girdiğiniz e-posta adresi çok uzun.",
 'news_err_3'		=>	"Вы ввели слишком длинный комментарий.",
-'news_err_4'		=>	"Включена защита от флуда.",
+'news_err_4'		=>	"Flood koruması etkinleştirildi.",
 'news_err_5'		=>	"Вы сможете добавить повторно комментарий для данной статьи только через",
 'news_err_6'		=>	"saniye",
 'news_err_7'		=>	"<li>Извините, но Вы ввели Имя или E-mail зарегистрированного пользователя. Если Вы и есть этот пользователь, то Вам необходимо авторизироваться в панели управления.</li>",
@@ -661,7 +661,7 @@ $lang = array (
 'pm_err_4'			=>	"<li>Bu isimle bir alıcı bulunamadı</li>",
 'pm_err_8'			=>	"<li>Alıcının kişisel mesaj sayısı maximum değere ulaştı, bu nedenle daha fazla kişisel mesaj alamıyor</li>",
 'pm_err_5'			=>	"Kişisel mesaj silme işlemi tamamlanamadı.Mesaj seçilmedi ya da bu işlem için izniniz yok",
-'pm_err_6'			=>	"Сообщение с таким номером не найдено",
+'pm_err_6'			=>	"Mesaj numarası bulunamadı",
 'pm_err_7'			=>	"У Вас нет прав просматривать чужие персональные сообщения",
 'pm_err_9'			=>	"Ваш ящик достиг максимального количества полученных сообщений. Вы не сможете больше получать персональные сообщения до тех пор, пока не удалите лишние сообщения.",
 
@@ -680,7 +680,7 @@ $lang = array (
 );
 
 ////////////
-// Локализация для часовых поясов
+// Saat dilimleri için çeviri
 
 $langtimezones = array(
     'Pacific/Midway'       => "(GMT-11:00) Midway Island",
@@ -780,7 +780,7 @@ $langtimezones = array(
 );
 
 ////////////
-// Локализация для даты
+// Tarih için çeviri
 $langdate = array (
 'January'		=>	"Ocak",
 'February'		=>	"Şubat",
@@ -826,7 +826,7 @@ $langdate = array (
 
 
 ////////////
-// Локализация для тега даты собственного формата
+// Tarih formatı için çeviri
 $customlangdate = array (
 'January'		=>	"Ocak",
 'February'		=>	"Şubat",
@@ -870,13 +870,13 @@ $customlangdate = array (
 
 );
 
-# Для архива и календаря
+# Arşiv ve takvim için
 $f  = array('ocak', 'şubat', 'mart', 'nisan', 'mayıs', 'haziran', 'temmuz', 'ağustos', 'eylül', 'ekim', 'kasım', 'aralık');
 $r  = array('Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık');
 $langdateshortweekdays = array("Pz","Pt","Sa","Ça","Pr","Cu","Ct");
 
 ////////////
-// Локализация транслита
+// Karakterler için çeviri
 $langtranslit = array(
 'ç' => 'c', 'ı' => 'i', 'ö' => 'o',
 'ü' => 'u', 'ş' => 's', 'ğ' => 'g',
