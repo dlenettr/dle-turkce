@@ -6,13 +6,13 @@ $lang = array (
 'wysiwyg_language'	=>  "tr",
 
 // 10.4
-'reg_err_41'        =>  "Администратором сайта была включена возможность авторизации на сайте только с использованием социальных сетей. Регистрация на сайте при этом отключена.",
-'bb_url_tooltip'	=>	"Введите подсказку для ссылки",
-'wait_subj'			=>	"Обьеденение аккаунта на сайте с аккаунтом в социальной сети",
-'reg_err_42'        =>  "Вы ранее уже зарегистрировались со своим e-mail адресом на нашем сайте. Данный пользователь находится в группе администраторов, поэтому он не может быть объединен с авторизацией через социальные сети.",
-'reg_err_43'        =>  "Объединение аккаунтов не завершено. Ссылка на объединение аккаунтов на сайте действительна только один раз.",
-'auth_next'			=>	"Продолжить авторизацию на сайте",
-'auth_social_ok'	=>	"Объединение аккаунтов успешно подтверждено. Вы можете продолжить авторизацию на сайте, пройдя по указанной ссылке :",
+'reg_err_41'        =>  "Site yönetimi, sadece sosyal ağlar üzerinden kayıt yapılmasına izin vermiştir. Site üzerinden kayıt devredışı bırakılmıştır.",
+'bb_url_tooltip'	=>	"Bağlantı için bir ipucu girin",
+'wait_subj'			=>	"Sosyal ağ hesabınız ile sitedeki hesabınız birleştiriliyor",
+'reg_err_42'        =>  "Bu e-mail adresi ile siteye kayıtlı bir hesap bulunmaktadır. Bu kullanıcı yönetici grubunda olduğundan, sosyal ağ hesabı ile birleştirilemez.",
+'reg_err_43'        =>  "Hesap birleştirme işlemi henüz tamamlanmadı. Birleştirme linkine bir kez tıklama geçerlidir.",
+'auth_next'			=>	"Siteye giriş",
+'auth_social_ok'	=>	"Hesap birleştirme işlemi başarıyla tamamlandı. Bağlatıya tıklayarak siteye giriş yapabilirsiniz :",
 // 10.4
 
 // 10.3
