@@ -3,9 +3,9 @@
 $lang = array_merge($lang, array (
 
 // 10.4
-'admin_logs_action_96'	=>	"Автоматическое удаление новости по истечении срока установленного в настройках новости:",
-'admin_logs_action_97'	=>	"Удаление всех комментариев у пользователя:",
-'admin_logs_action_98'	=>	"Удаление всех новостей у пользователя:",
+'admin_logs_action_96'	=>	"Makale ayarlarında belirtilen sürenin sonunda, makale otomatik olarak silindi:",
+'admin_logs_action_97'	=>	"Kullanıcının tüm yorumları silindi:",
+'admin_logs_action_98'	=>	"Kullanıcının tüm makaleleri silindi:",
 // 10.4
 
 // 10.1
