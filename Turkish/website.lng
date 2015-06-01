@@ -15,7 +15,7 @@ $lang = array (
 'reply_mail'		=>	"E-mail adresiniz:",
 'question_hint'		=>	"Spam koruması, sorunun cevabını girmelisiniz",
 'captcha_hint'		=>	"Kodu girin",
-'news_err_46'		=>	"Malesef yorumunuz siteye eklenemedi. Çünkü yazdığınız yorumda Yandex CleanWeb servisinin belirtiği spam bulgularına rastlandı.",
+'news_err_46'		=>	"Malesef yorumunuz siteye eklenemedi. Çünkü yazdığınız yorumda Yandex Clean Web servisinin belirtiği spam bulgularına rastlandı.",
 'poll_count'		=>	"Toplam oy sayısı:",
 // 10.5
 
