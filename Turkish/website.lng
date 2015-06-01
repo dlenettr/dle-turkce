@@ -5,6 +5,21 @@ $lang = array (
 'charset'			=>	"utf-8",
 'wysiwyg_language'	=>  "tr",
 
+// 10.5
+'reply_comments'	=>	"Yoruma cevap yaz",
+'reply_comments_1'	=>	"Cevapla",
+'reply_error_1'		=>	"Bu yorum cevap yazamazsınız",
+'reply_error_2'		=>	"Yorum bulunamadı",
+'reply_descr'		=>	"Kullanıcının yaptığı yorum için cevap girin",
+'reply_name'		=>	"Adınız:",
+'reply_mail'		=>	"E-mail adresiniz:",
+'question_hint'		=>	"Spam koruması, sorunun cevabını girmelisiniz",
+'captcha_hint'		=>	"Kodu girin",
+'news_err_46'		=>	"Malesef yorumunuz siteye eklenemedi. Çünkü yazdığınız yorumda Yandex CleanWeb servisinin belirtiği spam bulgularına rastlandı.",
+'poll_count'		=>	"Toplam oy sayısı:",
+// 10.5
+
+
 // 10.4
 'reg_err_41'        =>  "Site yönetimi, sadece sosyal ağlar üzerinden kayıt yapılmasına izin vermiştir. Site üzerinden kayıt devredışı bırakılmıştır.",
 'bb_url_tooltip'	=>	"Bağlantı için bir ipucu girin",
@@ -450,7 +465,7 @@ $lang = array (
 'bb_b_up'			=>	"Yükle",
 'next_moth'			=>	"Sonraki ay",
 'prev_moth'			=>	"Önceki ay",
-'cal_post'			=>	"Tüm makaleler",
+'cal_post'			=>	"Tüm gönderiler",
 'title_users'		=>	"Kullanıcılar",
 'title_new'			=>	"Okunmamış",
 'title_date'		=>	"Makaleler",
@@ -918,6 +933,24 @@ $langtranslit = array(
 'Ь' => '', 'Ы' => 'Y', 'Ъ' => '',
 'Э' => 'E', 'Ю' => 'Yu', 'Я' => 'Ya',
 "Ї" => "yi", "Є" => "ye",
+"À"=>"A", "à"=>"a", "Á"=>"A", "á"=>"a",
+"Â"=>"A", "â"=>"a", "Ä"=>"A", "ä"=>"a",
+"Ã"=>"A", "ã"=>"a", "Å"=>"A", "å"=>"a",
+"Æ"=>"AE", "æ"=>"ae", "Ç"=>"C", "ç"=>"c",
+"Ð"=>"D", "È"=>"E", "è"=>"e", "É"=>"E",
+"é"=>"e", "Ê"=>"E", "ê"=>"e", "Ì"=>"I",
+"ì"=>"i", "Í"=>"I", "í"=>"i", "Î"=>"I",
+"î"=>"i", "Ï"=>"I", "ï"=>"i", "Ñ"=>"N",
+"ñ"=>"n", "Ò"=>"O", "ò"=>"o", "Ó"=>"O",
+"ó"=>"o", "Ô"=>"O", "ô"=>"o", "Ö"=>"O",
+"ö"=>"o", "Õ"=>"O", "õ"=>"o", "Ø"=>"O",
+"ø"=>"o", "Œ"=>"OE", "œ"=>"oe", "Š"=>"S",
+"š"=>"s", "Ù"=>"U", "ù"=>"u", "Û"=>"U",
+"û"=>"u", "Ú"=>"U", "ú"=>"u", "Ü"=>"U",
+"ü"=>"u", "Ý"=>"Y", "ý"=>"y", "Ÿ"=>"Y",
+"ÿ"=>"y", "Ž"=>"Z", "ž"=>"z", "Þ"=>"B",
+"þ"=>"b", "ß"=>"Ss", "£"=>"pf", "¥"=>"ien",
+"ð"=>"eth", "ѓ"=>"r"
 );
 
 $relates_word = array ('e' => '[eеё]', 'r' => '[rг]', 't' => '[tт]', 'y' => '[yу]','u' => '[uи]','i' => '[i1l!]','o' => '[oо0]','p' => '[pр]','a' => '[aа]','s' => '[s5]','w' => 'w','q' => 'q','d' => 'd','f' => 'f','g' => '[gд]','h' => '[hн]','j' => 'j','k' => '[kк]','l' => '[l1i!]','z' => 'z','x' => '[xх%]','c' => '[cс]','v' => '[vuи]','b' => '[bвь]','n' => '[nпл]','m' => '[mм]','й' => '[йиu]','ц' => 'ц','у' => '[уy]','е' => '[еeё]','н' => '[нh]','г' => '[гr]','ш' => '[шwщ]','щ' => '[щwш]','з' => '[з3э]','х' => '[хx%]','ъ' => '[ъь]','ф' => 'ф','ы' => '(ы|ь[i1l!]?)','в' => '[вb]','а' => '[аa]','п' => '[пn]','р' => '[рp]','о' => '[оo0]','л' => '[лn]','д' => 'д','ж' => 'ж','э' => '[э3з]','я' => '[я]','ч' => '[ч4]','с' => '[сc]','м' => '[мm]','и' => '[иuй]','т' => '[тt]','ь' => '[ьb]','б' => '[б6]','ю' => '(ю|[!1il][oо0])','ё' => '[ёеe]','1' => '[1il!]','2' => '2','3' => '[3зэ]','4' => '[4ч]','5' => '[5s]','6' => '[6б]','7' => '7','8' => '8','9' => '9','0' => '[0оo]','_' => '_','#' => '#','%' => '[%x]','^' => '[^~]','(' => '[(]',')' => '[)]','=' => '=','.' => '[.]','-' => '-','[' => '[\[]');
