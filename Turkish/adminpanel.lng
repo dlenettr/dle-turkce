@@ -5,6 +5,36 @@ $lang = array (
 'charset'				=>	"utf-8",
 'wysiwyg_language'		=>  "tr",
 
+// 10.5
+'opt_sys_trc'			=>  "Yorumlarda ağaç gösterimini kullan",
+'opt_sys_trcd'			=>  "Bu ayarı etkinleştirirseniz, kullanıcılar yazılan yorumlara direkt olarak cevap yazabilirler. Bu ayarı devre dışı bırakırsanız, yorumlar normal sıralama düzeni ile gösterilir",
+'opt_sys_trcl'			=>  "Maksimum iç içe yorum derinliği",
+'opt_sys_trcld'			=>  "İç içe yorumlar için maksimum derinlik seviyesini belirtin. Bu sınıra ulaşan yorumlara cevap yazılamayacaktır",
+'opt_sys_trcf'			=>  "Yorumlara yanıt için basitleştirilmiş form kullan",
+'opt_sys_trcfd'			=>  "Bu ayarı etkinleştirirseniz, kullanıcı bir yoruma cevap yazmak istediğinde yorumun altında basit bir form gösterilecektir. Bu ayar, herhangi bir açıklamaya ihtiyaç duyulmayan, gerekli olan minimum yazı istenildiğinde etkinleştirilmelidir.",
+'editor_none'			=>	"Editör kullanma",
+'bb_t_sub'				=>	"Yazı üstü indisi",
+'bb_t_sup'				=>	"Yazı altı indisi",
+'bb_t_j'				=>	"Her iki tarafa yay",
+'bb_t_header'			=>	"Yazı başlığı",
+'bb_header'				=>	"Başlık",
+'clear_poll'			=>	"Anket sonuçlarını temizle",
+'clear_poll_1'			=>	"Gerçekten bu anketin sonuçlarını temizlemek istiyor musunuz?",
+'clear_poll_2'			=>	"Anketin sonuçları başarıyla temizlendi",
+'group_edit_days'		=>	"Makale düzenleyebilme süresi",
+'hint_edit_days'		=>	"Eğer kullanıcı grubuna makale düzenleme yetkisi verdiyseniz, makale eklendikten sonra kaç gün boyunca düzenlenebilir olacağını sınırlayabilirsiniz. Bu süre sonunda kullanıcı eklediği makaleyi düzenleyemez. Bu özelliği devre dışı bırakmak için 0 girin",
+'group_fpmspam'			=>	"Kişisel mesajlar için spam korumasını etkinleştir",
+'hint_fpmspam'			=>	"Bu ayar, kullanıcıların yazdıkları kişisel mesajlar için spam koruması sağlar. Koruma http://www.stopforumspam.com/ servisi ile sağlanır. Bu kaynak dünyanın her yerinden aldığı çok sayıda spam bilgisini kullanarak bu spamları önlemeye çalışır.",
+'opt_sys_yansp'			=>	"Yorumlar için Yandex Clean Web korumasını etkinleştir.",
+'opt_sys_yanspd'		=>	"Bu ayarı etkinleştirdiğinizde, yazılan yorum siteye eklenmeden önce Yandex Clean Web servisi ( https://tech.yandex.ru/Clean Web/ ) yardımıyla spam belirtisi taşıyıp taşımadığı kontrol edilecek.",
+'opt_sys_yanspa'		=>	"Yandex Clean Web servisi için API anahtarı",
+'opt_sys_yanspad'		=>	"'Yandex Clean Web' servisini kullanmak için AIP anahtarı edinmeniz gerekmektedir. Bu adresten alabilirsiniz <a href=\"https://tech.yandex.ru/key/form.xml?service=cw\" target=\"_blank\">https://tech.yandex.ru/key/form.xml?service=cw</a>",
+'opt_sys_msec'			=>  "SMTP sunucusu için güvenli protokol kullan",
+'opt_sys_msecd'			=>  "SMTP sunucusu üzerinden e-posta göndermek için kullanmak istediğiniz güvenlik protokolünü seçin",
+'login_button'			=>  "Giriş",
+// 10.5
+
+
 // 10.4
 'user_err_6'			=>	"Geçersiz kullanıcı adı.",
 'search_by_comment'		=>	"Yorum sayısı:",
@@ -24,7 +54,7 @@ $lang = array (
 'opt_sys_rscd'			=>  "Bu ayarı etkinleştirirseniz, DataLife Engine sistemi üzerinden yapılan kayıtlar engellenecektir, ve sadece sosyal ağ hesabı olan kullanıcılar kayıt olabilecektir.",
 'login_box_1'			=>  "Kullanıcı adınızı giriniz",
 'login_box_2'			=>  "E-mail adresini giriniz",
-'login_box_2'			=>  "Şifrenizi giriniz",
+'login_box_3'			=>  "Şifrenizi giriniz",
 'mail_info_7'			=>	"Yönetici panelinden gönderilen E-Mail mesajlarında, aşağıdaki şablon kullanılır",
 'mail_newsletter_info'	=>	"Şablonu oluştururken, aşağıdaki tagları kullanabilirsiniz:<br /><b>{%title%}</b> - mesajın başlığı<br /><b>{%content%}</b> - mesajın içeriği, göndermeden önce yönetici tarafından yazılan<br /><b>{%charset%}</b> - sitenizin karakter kodlaması",
 'bb_url_tooltip'		=>	"Bağlantı için bir ipucu girin",
@@ -245,7 +275,7 @@ $lang = array (
 'opt_sys_linksd'		=>	"Bu modülü devredışı bırakmak size veritabanı sorgusu olarak tassarruf ettirecektir. Aynı zamanda sayfanın oluşum hızını düşerecektir. Çapraz link kullanmıyorsanız kapatınız.",
 'module_disabled'		=>	"Modül kapatılmış. Modülü aktifleştirmek için sistem ayarlarından veritabanı ve optimizasyon bölümüne gidin.",
 'links_err'				=>	"Anahtar kelime desteklenmeyen sembol içeriyor",
-// 10.1 
+// 10.1
 
 // 10.0
 'opt_sys_sts'			=>	"Anasayfada, varsayılan içerik çekme türü:",
@@ -262,8 +292,6 @@ $lang = array (
 'opt_sys_r3'			=>	"Sadece benzersiz girişleri",
 'opt_sys_r4'			=>	"Açık, orta düzeyli filtreleme",
 'opt_sys_r5'			=>	"Açık, gelişmiş filtreleme",
-'opt_sys_usm'			=>	"Sitede iletişim için kullanılacak E-mail adresi:",
-'opt_sys_usmd'			=>	"Bu ayar bazı ücretsiz e-posta veya hosting hizmetleri için gereklidir, sadece E-Posta barındırma hizmeti veren servisler nedeniyle E-Postanızın From : kısmı tanımlı olamayacak. Eğer bu ayarı açarsanız, gönderenin E-Posta adresini görmek için iletişim şablonuna {%email%} etiketini eklemeyi unutmayın, böylece gönderen kişiye cevap yazabilirsiniz",
 'opt_sys_smc'			=>	"Sitede şikayet olduğunda bildirim gönderilecek E-Mail adresi:",
 'opt_sys_smcd'			=>	"Bu ayarı etkinleştirirseniz, kullanıcılar yönetime şikayet bildirisi yaptığında yöneticinin e-mail adresine bildirim gönderilecektir.",
 'stat_sec_auth'			=>	"<b>Dikkat güvenlik hatası:</b><br><b>SECURE_AUTH_KEY</b> sabiti engine/data/dbconfig.php çok kısa bir değerde. En az 20 karakterli benzersiz bir karakter dizesi belirleyin.",
@@ -377,8 +405,6 @@ $lang = array (
 
 
 // 9.5
-'opt_sys_mhelo'			=>	"Настройка SMTP HELO:",
-'opt_sys_mhelod'		=>	"Большинство SMTP серверов используют HELO для подключения и авторизации на SMTP сервере. Однако на некоторых серверах, требуется указывать EHLO. Перед изменением настройки проконсультируйтесь с хостинг провайдером SMTP сервера, для уточнения, какое именно соединение нужно использовать.",
 'group_mcmd'			=>	"Максимальное количество комментариев в сутки",
 'hint_gmcmd'			=>	"Укажите максимальное количество комментариев, которое разрешено добавлять пользователям в сутки. Для снятия данного ограничения оставьте поле пустым или укажите 0.",
 'group_max_images'		=>	"Максимальное количество изображений для загрузки в одной публикации",
@@ -500,8 +526,6 @@ $lang = array (
 'opt_sys_navi_3'		=>	"Наверху",
 'opt_sys_navi_4'		=>	"Внизу и Наверху",
 'stat_secfault_3'		=>	"<b>Внимание ошибка безопасности:</b><br>Ваш сервер не отвечает минимальным требованиям безопасности, на сервере включена директива allow_url_include, для отключения данной директивы обратитесь к вашему хостинг провайдеру.",
-'opt_sys_phpma'			=>	"Дополнительные опции для функции PHP mail()",
-'opt_sys_phpmad'		=>	"Вы можете добавить дополнительные опции, которые будут переданы дополнительно в функцию PHP mail(). Например: -femail@site.ru установит значение 'From' для всех писем.",
 'opt_sys_smtpm'			=>	"E-mail для авторизации на SMTP сервере в качестве отправителя",
 'opt_sys_smtpmd'		=>	"Данная настройка является необязательной, однако некоторые бесплатные почтовые сервисы, например yandex.ru, требуют, чтобы в качестве E-mail адреса отправителя был указан именно адрес, зарегистрированный на их почтовом сервисе.",
 'mass_tags_err'			=>	"Вы не выбрали теги для выполнения над ними операций.",
@@ -603,7 +627,7 @@ $lang = array (
 'opt_sys_recaptcha'		=>	"reCAPTCHA",
 'opt_sys_recaptpub'		=>	"Публичный ключ сервиса reCAPTCHA:",
 'opt_sys_recaptpubd'	=>	"Получить ключ вы можете по ссылке: http://www.google.com/recaptcha Внимание, настоятельно рекомендуется зарегистрироваться на сервисе и сгенерировать для своего сайта уникальную пару ключей, установив разрешение на использование только на своем домене. Использование стандартной пары ключей, не дает должного эффекта по защите от спам роботов.",
-'opt_sys_recaptpriv'	=>	"Приватный ключ сервиса reCAPTCHA:",
+'opt_sys_recaptpriv'	=>	"Секретный ключ сервиса reCAPTCHA:",
 'opt_sys_recapttheme'	=>	"Оформление reCAPTCHA:",
 'opt_sys_recaptthemed'	=>	"Вы можете выбрать одну из стандартных тем, которая будет использоваться для оформления reCAPTCHA.",
 'edit_cloud'			=>	"Назначить слова для облака тегов",
@@ -799,7 +823,7 @@ $lang = array (
 'group_h_static'		=>	"Данная опция позволит пользователям, имеющим доступ в админпанель, создавать, редактировать и удалять статические страницы в админпанели.",
 'group_a_editvote'		=>	"Разрешить управление опросами сайта в админпанели",
 'group_h_editvote'		=>	"Данная опция позволит пользователям, имеющим доступ в админпанель, создавать, редактировать и удалять опросы для сайта в админпанели.",
-'group_a_newsletter'	=>	"Разрешить доступ к массовой рассылки сообщений в админпанели",
+'group_a_newsletter'	=>	"Разрешить доступ к массовой рассылке сообщений в админпанели",
 'group_h_newsletter'	=>	"Данная опция позволит пользователям, имеющим доступ в админпанель, осуществлять массовые рассылки сообщений пользователям.",
 'group_a_blockip'		=>	"Разрешить управление фильтрами блокировки по IP, логину или E-Mail в админпанели",
 'group_h_blockip'		=>	"Данная опция позволит пользователям, имеющим доступ в админпанель, создавать, редактировать и удалять фильтры блокировки по IP, логину или E-Mail.",
@@ -1195,7 +1219,7 @@ b'edit_go_page'			=>  "Перейти на страницу:",
 
 // 5.3
 'bb_t_emo'     			=>  "Вставка смайликов",
-'bb_t_up'				=>	"Загрузка файлов на сервер",
+'bb_t_up'				=>	"Загрузка изображений и файлов на сервер",
 'opt_sys_logextra'		=>	"Метод авторизации в админпанели",
 'opt_sys_logextrad'		=>	"При включении расширенного метода авторизации в админпанели, каждая новая сессия в админпанели будет требовать повторного ввода пароля, что гарантирует невозможность входа в админпанель, в случае кражи ваших Cookies.<br /><font color=\"red\">Внимание данный метод авторизации будет работать, если ваш PHP установлен как модуль Apache, поэтому перед включением рекомендуем вам уточнить режим работы PHP у вашего хостера</font>",
 'opt_sys_stdm'			=>	"Стандартный метод",
@@ -1477,7 +1501,7 @@ b'edit_go_page'			=>  "Перейти на страницу:",
 'group_allc'			=>	"Изменение всех комментариев",
 'group_dllc'			=>	"Удаление всех комментариев",
 'group_hic'				=>	"Просмотр скрытого текста",
-'group_apm'				=>	"Разрешить использование PM",
+'group_apm'				=>	"Разрешить использование персональных сообщений",
 'group_afil'			=>	"Разрешить скачивание файлов",
 'group_tlim'			=>	"Временное размещение в группе",
 'group_rlim'			=>	"Основная группа по окончании лимита",
@@ -1637,7 +1661,7 @@ b'edit_go_page'			=>  "Перейти на страницу:",
 
 // add v.2.7
 'opt_sys_cpm'			=>	"Количество комментариев на страницу",
-'opt_sys_cpmd'			=>	"Укажите сколько комментариев выводить на одну страницу",
+'opt_sys_cpmd'			=>	"Укажите сколько комментариев выводить на одну страницу. В случае использования древовидных комментариев, указывается количество комментариев верхнего уровня.",
 'opt_sys_csort'			=>	"Порядок сортировки комментариев",
 'opt_sys_csortd'		=>	"Выберите порядок сортировки комментариев",
 // add v.2.6
@@ -2014,23 +2038,6 @@ b'edit_go_page'			=>  "Перейти на страницу:",
 'bb_b_left'			=>	"Слева",
 'bb_b_right'		=>	"Справа",
 'bb_bb_page'		=>	"Страница",
-'bb_b_color'		=>	"ЦВЕТ",
-'bb_b_blue'			=>	"Синий",
-'bb_b_red'			=>	"Красный",
-'bb_b_purple'		=>	"Пурпурный",
-'bb_b_orange'		=>	"Оранжевый",
-'bb_b_yellow'		=>	"Жёлтый",
-'bb_b_gray'			=>	"Серый",
-'bb_b_green'		=>	"Зелёный",
-'bb_b_seagreen'		=>	"Морской волны",
-'bb_b_lime' 		=>	"Лайм",
-'bb_b_brown' 		=>	"Коричневый",
-'bb_b_pink' 		=>	"Розовый",
-'bb_b_tomato' 	=>	"Томатный",
-'bb_b_magenta' 	=>	"Фиолетовый",
-'bb_b_slategray' =>	"Темно-серый",
-'bb_b_navy' 		=>	"Темно-синий",
-'bb_b_deepskyblue' =>	"Голубой",
 'bb_b_close'		=>	"Закрыть тэги",
 'bb_b_url'			=>	"Ссылка",
 'bb_b_img'			=>	"Картинка",
@@ -2047,7 +2054,7 @@ b'edit_go_page'			=>  "Перейти на страницу:",
 'bb_t_r'			=>	"Выравнивание по правому краю",
 'bb_t_cl'			=>	"Закрыть все открытые теги",
 'bb_t_url'			=>	"Вставка ссылки",
-'bb_t_img'			=>	"Вставка картинки",
+'bb_t_img'			=>	"Вставка изображения",
 'bb_t_quote'		=>	"Вставка цитаты",
 'bb_t_code'			=>	"Вставка исходного кода",
 'bb_t_m'			=>	"Вставка email",
@@ -2141,7 +2148,6 @@ b'edit_go_page'			=>  "Перейти на страницу:",
 'opt_u_h'			=>	"Информация о посетителе",
 'opt_se_hf'			=>	"Форма поиска",
 'opt_se_h'			=>	"Результаты поиска",
-'opt_se_h'			=>	"Результаты поиска",
 'opt_st_h'			=>	"Статистика сайта",
 'opt_er_h'			=>	"Вывод информации и ошибок",
 'opt_r_h'			=>	"Регистрация посетителя на сайте",
@@ -2215,7 +2221,7 @@ b'edit_go_page'			=>  "Перейти на страницу:",
 'opt_sys_ia'		=>	"Размер маленькой превью копии загруженного изображения:",
 'opt_sys_iad'		=>	"Существует две возможности использования данной настройки:<br /><br /><b>Первая:</b> Вы задаете максимальный размер в пикселях любой из сторон загружаемой картинки при превышении которого будет создаваться уменьшенная копия. Например: <b>400</b><br /><br /><b>Вторая:</b> Вы задаете ширину и высоту уменьшенной копии изображения в формате ширина x высота. Например: <b>100x100</b>.<br /><br />Вы можете указать 0, если не хотите создавать превью копии загружаемых картинок на сервер.",
 'opt_sys_ij'		=>	"Качество сжатия .jpg изображения:",
-'opt_sys_ijd'		=>	"Качество сжатия JPEG картинки при копировании на сервер",
+'opt_sys_ijd'		=>	"Качество сжатия JPEG картинки при копировании на сервер. Выставляется значение от 0 до 100. Чем больше значение, тем лучше качество картинок, но также больше и их вес на сервере.",
 
 'opt_sys_yes'		=>	"Да",
 'opt_sys_no'		=>	"Нет",
@@ -2255,7 +2261,7 @@ b'edit_go_page'			=>  "Перейти на страницу:",
 'static_title'		=>	"Название:",
 'static_descr'		=>	"Описание:",
 'static_view'		=>	"Просмотреть страницу на сайте",
-'static_templ'		=>	"Текст:",
+'static_templ'		=>	"Текст страницы:",
 'static_edit'		=>	"Редактирование страницы",
 'static_addok'		=>	"Обновление страницы завершено",
 'static_addok_1'	=>	"Статическая страница успешно сохранена",
@@ -2294,7 +2300,7 @@ b'edit_go_page'			=>  "Перейти на страницу:",
 );
 
 ////////////
-// Локализация для часовых поясов
+// Saat dilimleri için çeviri
 
 $langtimezones = array(
     'Pacific/Midway'       => "(GMT-11:00) Midway Island",
@@ -2397,7 +2403,7 @@ $langtimezones = array(
 );
 
 ////////////
-// Локализация для даты
+// Tarih için çeviri
 $langdate = array (
 'January'		=>	"Ocak",
 'February'		=>	"Şubat",
@@ -2442,7 +2448,7 @@ $langdate = array (
 );
 
 ////////////
-// Локализация транслита
+// Karakterler için çeviri
 $langtranslit = array(
 'ç' => 'c', 'ı' => 'i', 'ö' => 'o',
 'ü' => 'u', 'ş' => 's', 'ğ' => 'g',
@@ -2474,6 +2480,24 @@ $langtranslit = array(
 'Ь' => '', 'Ы' => 'Y', 'Ъ' => '',
 'Э' => 'E', 'Ю' => 'Yu', 'Я' => 'Ya',
 "Ї" => "yi", "Є" => "ye",
+"À"=>"A", "à"=>"a", "Á"=>"A", "á"=>"a",
+"Â"=>"A", "â"=>"a", "Ä"=>"A", "ä"=>"a",
+"Ã"=>"A", "ã"=>"a", "Å"=>"A", "å"=>"a",
+"Æ"=>"AE", "æ"=>"ae", "Ç"=>"C", "ç"=>"c",
+"Ð"=>"D", "È"=>"E", "è"=>"e", "É"=>"E",
+"é"=>"e", "Ê"=>"E", "ê"=>"e", "Ì"=>"I",
+"ì"=>"i", "Í"=>"I", "í"=>"i", "Î"=>"I",
+"î"=>"i", "Ï"=>"I", "ï"=>"i", "Ñ"=>"N",
+"ñ"=>"n", "Ò"=>"O", "ò"=>"o", "Ó"=>"O",
+"ó"=>"o", "Ô"=>"O", "ô"=>"o", "Ö"=>"O",
+"ö"=>"o", "Õ"=>"O", "õ"=>"o", "Ø"=>"O",
+"ø"=>"o", "Œ"=>"OE", "œ"=>"oe", "Š"=>"S",
+"š"=>"s", "Ù"=>"U", "ù"=>"u", "Û"=>"U",
+"û"=>"u", "Ú"=>"U", "ú"=>"u", "Ü"=>"U",
+"ü"=>"u", "Ý"=>"Y", "ý"=>"y", "Ÿ"=>"Y",
+"ÿ"=>"y", "Ž"=>"Z", "ž"=>"z", "Þ"=>"B",
+"þ"=>"b", "ß"=>"Ss", "£"=>"pf", "¥"=>"ien",
+"ð"=>"eth", "ѓ"=>"r"
 );
 
 @setlocale(LC_ALL, array("tr_TR.UTF-8"));
