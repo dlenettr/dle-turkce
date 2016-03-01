@@ -5,6 +5,47 @@ $lang = array (
 'charset'			=>	"utf-8",
 'wysiwyg_language'	=>  "tr",
 
+// 11.0
+'media_upload_st5'		=>	"Yüklenecek dosyaları buraya sürükleyin",
+'media_upload_st6'		=>	"Yüklenen Dosya:",
+'media_upload_st8'		=>	"buradan",
+'media_upload_st9'		=>	"başarıyla tamamlandı",
+'media_upload_st10'		=>	"başarısız",
+'media_upload_st11'		=>	"{file} izin verilmeyen uzantı. Sadece {extensions} uzantılara sahip dosyalar yüklenebilir.",
+'media_upload_st12'		=>	"{file} çok büyük. Max yükleme boyutu: {sizeLimit}.",
+'media_upload_st13'		=>	"{file} boş. Başka dosya seçiniz.",
+'xfield_xfim'			=>	"Resim yükle",
+'xfield_xfif'			=>	"Dosya yükle",
+'xfield_xfid'			=>	"Sil",
+'image_delete'			=>	"Bu resmi silmek istediğinize emin misiniz?",
+'file_delete'			=>	"Bu dosyayı silmek istediğinize emin misiniz?",
+'xfield_xyes'			=>	"Evet",
+'xfield_xno'			=>	"Hayıt",
+'feedback_not_reg'		=>	"Kayıtsız kullanıcı",
+'c_not_reg'				=>	"Ziyaretçi",
+'enter_login'			=>	"Kullanıcı adı doğrulama",
+'enter_login1'			=>	"Sayın <b>{name}</b>,<br /><br />kullanıcı adınız kullandığınız sosyal ağdan otomatik olarak çekildi. Ancak, sitemizde kullanabileceğiniz başka bir kullanıcı adı belirtebilirsiniz.",
+'enter_login2'			=>	"Kullanıcı adınız:",
+'enter_login3'			=>	"Kullanıcı adını doğrulayın",
+'enter_login4'			=>	" Kullanıcı adınızı sadece bir kez seçebileceğinizi unutmayın, bu nedenle dikkatli olun.",
+'reg_err_44'			=>	"<li> Bu kullanıcı adı zaten kullanılıyor. Lütfen, başka bir kullanıcı adı seçiniz. </li>",
+'add_err_10'			=>	"Bu makale moderasyon beklemiyor, ve sitenin bu bölümünden düzenlenemez. Buradan sadece moderasyon bekleyen makalelerinizi düzenleyebilirsiniz.",
+'comments_empty'		=>	"Yorum yok",
+// 11.0
+
+// 10.6
+'rating_error1'		=>	"Kendi makalenizi değerlendiremezsiniz",
+'rating_error2'		=>	"Bu makaleyi zaten değerlendirmişsiniz",
+'rating_error3'		=>	"Değerlendirme izniniz yok",
+'rating_error4'		=>	"Kendi yorumunuzu değerlendiremezsiniz",
+'rating_error5'		=>	"Bu yorumu zaten değerlendirmişsiniz",
+'bb_t_sub'			=>	"İndis",
+'bb_t_sup'			=>	"Üs",
+'bb_t_j'			=>	"İki tarafa yaslı",
+'bb_t_header'		=>	"Yazı başlığı",
+'bb_header'			=>	"Başlık",
+// 10.6
+
 // 10.5
 'reply_comments'	=>	"Yoruma cevap yaz",
 'reply_comments_1'	=>	"Cevapla",
