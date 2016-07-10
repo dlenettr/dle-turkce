@@ -5,6 +5,23 @@ $lang = array (
 'charset'			=>	"utf-8",
 'wysiwyg_language'	=>  "tr",
 
+// 11.1
+'bb_url_video'			=> "Video linkini girin:",
+'bb_url_audio'			=> "Ses linkini girin:",
+'bb_url_poster'			=> "Video için poster linkini girin:",
+'bb_descr'			    => "Açıklama girin:",
+'button_insert'			=> "Ekle",
+'button_addplaylist'	=> "Oynatma listesi ekle",
+'xfield_xfimg'			=>	"Resim yükle",
+'n_unsubscribe_ok'		=>	"Siteden alınan e-postalarla ilgili abonelikten başarıyla çıkıldı.",
+'n_unsubscribe_err'		=>	"Bu bağlantı geçersiz. Siteden alınan e-posta aboneliğinden çıkılamadı. Adres çubuğundaki URL yi doğrulamak için aldığınız mesajdaki URL ile kontrol edin.",
+'news_subscribe'		=>	"Makalelerime yapılan yorumlar için e-mail bildirimi al",
+'comments_reply_subscribe'	=>	"Yorumlarım alıntı yapıldığında e-mail bildirimi al",
+'news_unsubscribe'		=>	"{subscribed} [declination={subscribed}]makale|nin|nin|nin[/declination] yorumlarına abone oldunuz",
+'news_unsubscribe_1'	=>	"Tüm aboneliklerden çık",
+'content_error'			=>	"Değer çok uzun",
+// 11.1
+
 // 11.0
 'media_upload_st5'		=>	"Yüklenecek dosyaları buraya sürükleyin",
 'media_upload_st6'		=>	"Yüklenen Dosya:",
@@ -544,7 +561,7 @@ $lang = array (
 
 'reg_err_1'		=>	"<li>Оба введенных пароля должны быть идентичны!</li>",
 'reg_err_2'		=>	"<li>Длина пароля должна быть не менее 6 символов и не более 16!</li>",
-'reg_err_3'		=>	"<li>Недопустимая длина имени. Логин не может быть менее 3 символов и более 30 символов!</li>",
+'reg_err_3'		=>	"<li>Недопустимая длина имени. Логин не может быть менее 3 символов и более 40 символов!</li>",
 'reg_err_4'		=>	"<li>Вы используете недопустимое имя!</li>",
 'reg_err_5'		=>	"<li>Вы используете недопустимый пароль!</li>",
 'reg_err_6'		=>	"<li>Введен неверный E-Mail адрес!</li>",
@@ -714,7 +731,7 @@ $lang = array (
 'news_info_1'		=>	"Посетители, находящиеся в группе <b>{group}</b>, не могут оставлять комментарии к данной публикации.",
 'news_mail'			=>	"E-Mail gönder",
 'news_nomail'		=>	"скрыт от просмотра",
-'news_noamail'		=>	"Не получать письма от других",
+'news_noamail'		=>	"Не получать письма от других и с сайта",
 'news_option'		=>	"Profili düzenle",
 'news_addfav'		=>	"Makaleyi favorilerime ekle",
 'news_minfav'		=>	"Favorilerimden sil",
