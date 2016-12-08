@@ -2,6 +2,12 @@
 
 $lang = array_merge($lang, array (
 
+// 11.2
+'admin_logs_action_99'	=>	"Geçersiz PIN",
+'admin_logs_action_100'	=>	"Giriş PIN ile doğrulandı",
+'admin_logs_action_101'	=>	"Giriş (kullanıcı ve şifre).",
+// 11.2
+
 // 10.4
 'admin_logs_action_96'	=>	"Makale ayarlarında belirtilen sürenin sonunda, makale otomatik olarak silindi:",
 'admin_logs_action_97'	=>	"Kullanıcının tüm yorumları silindi:",
