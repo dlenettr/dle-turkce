@@ -5,6 +5,24 @@ $lang = array (
 'charset'			=>	"utf-8",
 'wysiwyg_language'	=>  "tr",
 
+// 11.2
+'twofactor_auth'		=>	"İki aşamalı doğrulama sistemini aktifleştir (mail adresinize tek kullanımlık PIN gönderilecek)",
+'twofactor_alert'		=>	"Hesabınız için iki kademeli doğrulama sistemini aktifleştirdiniz. Tek kullanımlık PIN mail adresinize gönderilecek. Giriş yapmak için bu PIN'i girmelisiniz:",
+'twofactor_title'		=>	"Tek kullanımlık PIN'i girin",
+'twofactor_subj'		=>	"Doğrulama için tek kullanımlık PIN",
+'twofactor_err_1'		=>	"Tek kullanımlık PIN'i girmeden önce kullanıcı adınız ve şifreniz ile giriş yapmalısınız",
+'twofactor_err_2'		=>	"Tek kullanımlık PIN'i girmediniz",
+'twofactor_err_3'		=>	"Geçersiz giriş bilgileri. Sayfayı yenileyerek tekrar kullanıcı adı ve şifrenizi giriniz.",
+'twofactor_err_4'		=>	"Tek kullanımlık PIN geçerlilik süresi bitmiştir. PIN, talep edildikten sonraki 15 dakika içinde kullanılmalıdır.",
+'twofactor_err_5'		=>	"Geçersiz PIN. {attempt} deneme hakkınız kaldı.",
+'subscribe_err_1'		=>	"Yorumlara abone olma izniniz bulunmamaktadır.",
+'subscribe_err_2'		=>	"Kullanıcı giriş hatası. Lütfen, sayfayı yenileyin.",
+'subscribe_err_3'		=>	"Bu makaleye abone olma izniniz bulunmamaktadır.",
+'subscribe_info_1'		=>	"Bu makalenin yorumlarına başarıyla abone oldunuz.",
+'subscribe_info_2'		=>	"Zaten bu makalenin yorumlarına abonesiniz",
+'subscribe_info_3'		=>	"Gerçekten bu makalenin yorumlarını abone olmak istiyor musunuz?",
+// 11.2
+
 // 11.1
 'bb_url_video'			=> "Video linkini girin:",
 'bb_url_audio'			=> "Ses linkini girin:",
@@ -19,7 +37,6 @@ $lang = array (
 'comments_reply_subscribe'	=>	"Yorumlarım alıntı yapıldığında e-mail bildirimi al",
 'news_unsubscribe'		=>	"{subscribed} [declination={subscribed}]makale|nin|nin|nin[/declination] yorumlarına abone oldunuz",
 'news_unsubscribe_1'	=>	"Tüm aboneliklerden çık",
-'content_error'			=>	"Değer çok uzun",
 // 11.1
 
 // 11.0
@@ -110,7 +127,7 @@ $lang = array (
 // 10.2
 
 // 10.1
-'lost_err_2'		=>	"Site yönetimi bu kullanıcı grubu için şifre hatırlatma işlemini yasakladı.",
+'lost_err_2'		=>	"Kontrol panel erişimi olan kullanıcılar, şifrelerini sadece kontrol panelinden kurtarabilirler. Kontrol paneline girerek şifrenizi kurtarınız.",
 'reg_err_35'       	=>  "Bu E-mail adresi daha önce sitemize spam göndermek için kullanıldı. Bu yüzden bu adres ile kayıt olamazsınız.",
 // 10.1
 
@@ -560,7 +577,7 @@ $lang = array (
 'all_err_1'		=>	"Dikkat, bir hata oluştu",
 
 'reg_err_1'		=>	"<li>Оба введенных пароля должны быть идентичны!</li>",
-'reg_err_2'		=>	"<li>Длина пароля должна быть не менее 6 символов и не более 16!</li>",
+'reg_err_2'		=>	"<li>Длина пароля должна быть не менее 6 символов и не более 72 символов!</li>",
 'reg_err_3'		=>	"<li>Недопустимая длина имени. Логин не может быть менее 3 символов и более 40 символов!</li>",
 'reg_err_4'		=>	"<li>Вы используете недопустимое имя!</li>",
 'reg_err_5'		=>	"<li>Вы используете недопустимый пароль!</li>",
@@ -673,7 +690,7 @@ $lang = array (
 'lost_err'			=>	"Пользователь с таким именем не запрашивал восстановление пароля, либо данная ссылка уже устарела. Допускается только одна попытка восстановления пароля по отправленной вам на e-mail ссылке. После чего вы должны повторно запрашивать восстановление пароля на e-mail",
 'lost_subj'			=>	"Unutulan şifreyi kurtarma",
 'lost_ms'			=>	"Bildirim gönderildi",
-'lost_ms_1'			=>	"Sayın ziyareçi! Güvenlik nedeniyle tüm şifreler şifrelenmiş biçimde saklandığından eski parolanızı kurtaramazsınız. Bunun yerine kayıt sırasında verdiğiniz E-posta adresinize yeni bir şifre oluşturmak için mesaj gönderilmiştir.",
+'lost_ms_1'			=>	"Sayın ziyareçi! Güvenlik nedeniyle tüm şifreler şifrelenmiş biçimde saklanmaktadır. E-posta adresinize yeni bir şifre oluşturmak için mail gönderilmiştir.",
 'lost_err_1'		=>	"Kullanıcı adı veya E-Posta veritabanında bulunamadı",
 
 'news_err_1'		=>	"Girdiğiniz kullanıcı adı çok uzun.",
@@ -693,7 +710,7 @@ $lang = array (
 'news_err_16'		=>	"<li>Максимальный размер загружаемой картинки не должен превышать {size} Kb.</li>",
 'news_err_17'		=>	"<li>Введен неверный старый пароль!</li>",
 'news_err_18'		=>	"<li>Оба введенных пароля должны быть идентичны!</li>",
-'news_err_19'		=>	"<li>Длина пароля должна быть не менее 6 символов и не более 16!</li>",
+'news_err_19'		=>	"<li>Длина пароля должна быть не менее 6 символов и не более 72 символов!</li>",
 'news_err_20'		=>	"<li>Вы используете недопустимый пароль!</li>",
 'news_err_21'		=>	"<li>Введен неверный E-Mail адрес!</li>",
 'news_err_22'		=>	"<li>Слишком длинная информация о себе!</li>",
@@ -991,24 +1008,6 @@ $langtranslit = array(
 'Ь' => '', 'Ы' => 'Y', 'Ъ' => '',
 'Э' => 'E', 'Ю' => 'Yu', 'Я' => 'Ya',
 "Ї" => "yi", "Є" => "ye",
-"À"=>"A", "à"=>"a", "Á"=>"A", "á"=>"a",
-"Â"=>"A", "â"=>"a", "Ä"=>"A", "ä"=>"a",
-"Ã"=>"A", "ã"=>"a", "Å"=>"A", "å"=>"a",
-"Æ"=>"AE", "æ"=>"ae", "Ç"=>"C", "ç"=>"c",
-"Ð"=>"D", "È"=>"E", "è"=>"e", "É"=>"E",
-"é"=>"e", "Ê"=>"E", "ê"=>"e", "Ì"=>"I",
-"ì"=>"i", "Í"=>"I", "í"=>"i", "Î"=>"I",
-"î"=>"i", "Ï"=>"I", "ï"=>"i", "Ñ"=>"N",
-"ñ"=>"n", "Ò"=>"O", "ò"=>"o", "Ó"=>"O",
-"ó"=>"o", "Ô"=>"O", "ô"=>"o", "Ö"=>"O",
-"ö"=>"o", "Õ"=>"O", "õ"=>"o", "Ø"=>"O",
-"ø"=>"o", "Œ"=>"OE", "œ"=>"oe", "Š"=>"S",
-"š"=>"s", "Ù"=>"U", "ù"=>"u", "Û"=>"U",
-"û"=>"u", "Ú"=>"U", "ú"=>"u", "Ü"=>"U",
-"ü"=>"u", "Ý"=>"Y", "ý"=>"y", "Ÿ"=>"Y",
-"ÿ"=>"y", "Ž"=>"Z", "ž"=>"z", "Þ"=>"B",
-"þ"=>"b", "ß"=>"Ss", "£"=>"pf", "¥"=>"ien",
-"ð"=>"eth", "ѓ"=>"r"
 );
 
 $relates_word = array ('e' => '[eеё]', 'r' => '[rг]', 't' => '[tт]', 'y' => '[yу]','u' => '[uи]','i' => '[i1l!]','o' => '[oо0]','p' => '[pр]','a' => '[aа]','s' => '[s5]','w' => 'w','q' => 'q','d' => 'd','f' => 'f','g' => '[gд]','h' => '[hн]','j' => 'j','k' => '[kк]','l' => '[l1i!]','z' => 'z','x' => '[xх%]','c' => '[cс]','v' => '[vuи]','b' => '[bвь]','n' => '[nпл]','m' => '[mм]','й' => '[йиu]','ц' => 'ц','у' => '[уy]','е' => '[еeё]','н' => '[нh]','г' => '[гr]','ш' => '[шwщ]','щ' => '[щwш]','з' => '[з3э]','х' => '[хx%]','ъ' => '[ъь]','ф' => 'ф','ы' => '(ы|ь[i1l!]?)','в' => '[вb]','а' => '[аa]','п' => '[пn]','р' => '[рp]','о' => '[оo0]','л' => '[лn]','д' => 'д','ж' => 'ж','э' => '[э3з]','я' => '[я]','ч' => '[ч4]','с' => '[сc]','м' => '[мm]','и' => '[иuй]','т' => '[тt]','ь' => '[ьb]','б' => '[б6]','ю' => '(ю|[!1il][oо0])','ё' => '[ёеe]','1' => '[1il!]','2' => '2','3' => '[3зэ]','4' => '[4ч]','5' => '[5s]','6' => '[6б]','7' => '7','8' => '8','9' => '9','0' => '[0оo]','_' => '_','#' => '#','%' => '[%x]','^' => '[^~]','(' => '[(]',')' => '[)]','=' => '=','.' => '[.]','-' => '-','[' => '[\[]');
