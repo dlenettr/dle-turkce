@@ -2,6 +2,10 @@
 
 $lang = array_merge($lang, array (
 
+// 11.2
+'admin_check_35'	=>	"Her kategori için makale sayısı hesaplamayı aktifleştirdiniz. Bu özellik scriptten yapılan veritabanı sorgu sayısını arttırır. Bu ayarı pasifleştirmek için, <b>Sistem Ayarları &raquo; Veritabanı Optimizasyonu </b> sayfasına giderek bu seçeneği devredışı bırakın.",
+// 11.2
+
 // 9.7
 'admin_check_34'	=>	"Sitede kullanıcı durumlarını görüntülemek için 'Online' ve 'Offline' durum desteği eklendi. Bu özellik aktif ise veritabanı sorgu sayısı artar. Bu özelliği kapatmak için <b>Sistem Ayarları &raquo; Veritabanı Ayarları</b>, adımlarını takip edin.",
 // 9.7
