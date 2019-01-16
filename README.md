@@ -1,9 +1,9 @@
 Datalife Engine için Türkçe Çeviri
 ----------------
 
-Sadece dil dosyaları eklenmiştir. Eski sürümlerin sürekli üzerine ekleyerek ortaya çıkan dil dosyası gereksiz satırları da barındırıyor.
-Bu nedenle her sürümde kontrol edilerek güncel ve Türkçe dil dosyalarını sunmak istiyoruz. Yani sürüm çıktığında orjinal dil dosyaları ile kıyaslama yapılarak gerekli müdaheleler yapılacaktır.
+Sadece dil dosyalarını içermektedir. Eski sürümlerden itibaren sürekli üzerine eklenerek ortaya çıkan dil dosyası, gereksiz birçok satır barındırıyor.
+Bu sorunun önüne geçmek için her sürüm ile birlikte tüm satırlar karşılaştırılarak senkronize ediliyor.
 
-Amacımız sıfırdan temiz bir Türkçe dil paketi hazırlamak. Yardımcı olacak herkese teşekkürler.
+Amacımız: Temiz bir Türkçe dil paketi hazırlamak.
 
-http://dle.net.tr adresinden her zaman en güncel DLE sürümünü indirebilirsiniz.
+Yardımcı olacak herkese teşekkürler.
