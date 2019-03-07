@@ -5,6 +5,39 @@ $lang = array (
 'charset'			=>	"utf-8",
 'wysiwyg_language'	=>  "tr",
 
+// 13.2
+'recaptcha_fail'		=>	"Bot olmadığınız kontrolünden geçemediniz",
+// 13.2
+
+// 13.1
+'xf_img_descr'			=>	"Açıklama",
+'like_dislike_sum'		=>	"Beğenenler: {likes}, Beğenmeyenler: {dislikes}, Ortalama: {rating}",
+// 13.1
+
+// 13.0
+'send_pm'				=>	"Kişisel Mesaj:",
+'send_pm_1'				=>	"Konu",
+'send_pm_2'				=>	"\"Gönderilenler\" klasörüne kaydet",
+// 13.0
+
+// 12.1
+'rules_page'			=>	"Site Kuralları",
+'xfield_xhtmljs_2'		=>	"Güvenlik nedeniyle bu alanın görüntülenmesi mümkün değildir",
+// 12.1
+
+// 12.0
+'enter_n_pass'			=>	"Şifre onayı gerekiyor",
+'enter_n_pass_1'		=>	"Bu makaleyi görüntüleyebilmek için site yönetimi tarafından belirlenmiş şifreyi girmeniz gerekiyor",
+'enter_n_pass_2'		=>	"Şifreyi giriniz:",
+'enter_n_pass_3'		=>	"Gönder",
+'enter_n_pass_4'		=>	"<b>Makale için girdiğiniz şifre yanlış</b>",
+// 12.0
+
+// 11.3
+'sess_error'			=> "Oturumunuz sonlandırıldı. Lütfen, sayfayı yenileyiniz ve gerekiyorsa giriş yapınız.",
+'feed_error_1'			=> "<b>{name}</b> şablonu bulunamadı.",
+// 11.3
+
 // 11.2
 'twofactor_auth'		=>	"İki aşamalı doğrulama sistemini aktifleştir (mail adresinize tek kullanımlık PIN gönderilecek)",
 'twofactor_alert'		=>	"Hesabınız için iki kademeli doğrulama sistemini aktifleştirdiniz. Tek kullanımlık PIN mail adresinize gönderilecek. Giriş yapmak için bu PIN'i girmelisiniz:",

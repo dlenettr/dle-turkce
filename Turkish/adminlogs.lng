@@ -2,6 +2,39 @@
 
 $lang = array_merge($lang, array (
 
+// 13.1
+'admin_logs_action_118'		=>	"Kullanıcı filtresindeki engellemeyi düzenle:",
+// 13.1
+
+// 13.0
+'admin_logs_action_116'		=>	"Yeni Eklenti Ekleme:",
+'admin_logs_action_117'		=>	"Eklenti Düzenleme:",
+'admin_logs_action_115'		=>	"Eklenti Kaldırma, ID:",
+'admin_logs_action_1140'	=>	"Eklenti Pasifleştirme, ID:",
+'admin_logs_action_1141'	=>	"Eklenti Aktifleştirme, ID:",
+// 13.0
+
+// 12.1
+'admin_logs_action_109'	=>	"Reklam görüntülenme sayısı sıfırlandı, ID:",
+'admin_logs_action_110'	=>	"Reklam tıklanma sayısı sıfırlandı, ID:",
+'admin_logs_action_111'	=>	"Reklamlar bölümünde başlık ekledi:",
+'admin_logs_action_112'	=>	"Reklamlar bölümünde başlık düzenledi:",
+'admin_logs_action_113'	=>	"Reklamlar bölümünden başlık sildi, ID:",
+// 12.1
+
+// 12.0
+'admin_logs_action_105'	=>	"URL için meta etiket ekledi:",
+'admin_logs_action_106'	=>	"URL için meta etiket düzenledi:",
+'admin_logs_action_107'	=>	"'Meta Etiktler' den sayfa sildi",
+'admin_logs_action_108'	=>	"Kullanıcılar için dışa aktarım yaptı",
+// 12.0
+
+// 11.3
+'admin_logs_action_102'	=> "Yönlendirilecek URL eklendi:",
+'admin_logs_action_103'	=> "Yönlendirilecek URL düzenlendi:",
+'admin_logs_action_104'	=> "'Yönlendirmeler' modülünde URL(ler) silindi",
+// 11.3
+
 // 11.2
 'admin_logs_action_99'	=>	"Geçersiz PIN",
 'admin_logs_action_100'	=>	"Giriş PIN ile doğrulandı",

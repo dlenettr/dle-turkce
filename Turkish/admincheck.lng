@@ -2,6 +2,10 @@
 
 $lang = array_merge($lang, array (
 
+// 12.1
+'admin_check_36'	=>	"Reklam görüntülemelerini hesaplamayı aktifleştirdiniz. Bu özellik scriptten yapılan veritabanı sorgu sayısını arttırır. Bu ayarı pasifleştirmek için, reklamlar bölümüne gidin, ve reklamların görüntüleme hesaplama ayarını kapatın.",
+// 12.1
+
 // 11.2
 'admin_check_35'	=>	"Her kategori için makale sayısı hesaplamayı aktifleştirdiniz. Bu özellik scriptten yapılan veritabanı sorgu sayısını arttırır. Bu ayarı pasifleştirmek için, <b>Sistem Ayarları &raquo; Veritabanı Optimizasyonu </b> sayfasına giderek bu seçeneği devredışı bırakın.",
 // 11.2
