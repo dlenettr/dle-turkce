@@ -5,6 +5,29 @@ $lang = array (
 'charset'				=>	"utf-8",
 'wysiwyg_language'		=>  "tr",
 
+// 13.3
+'news_err_42'			=>	"Sitede aynı URL ile başka bir paylaşım yapılmış. Lütfen 'İlave' bölümünden URL'i değiştiriniz",
+'plugins_errors_11'		=>	"<b>Dikkat!</b><br><br> Sitenize yüklediğiniz bazı pluginlerin çalışmasında hata var. Bu durum site genelinde performans kaybına neden olabilir.",
+'plugins_errors_12'		=>	"Hata listesine bak",
+'opt_sys_jqv'			=>	"Sitenizin jQuery versiyonu:",
+'opt_sys_jqvd'			=>	"Sitenizde kullanılacak jQuery versiyonunu seçebilirsiniz",
+'allow_rss_news'		=>	"RSS yayınında paylaş",
+'allow_rss_turbo'		=>	"Yandex Turbo'da kullan",
+'allow_rss_dzen'		=>	"Yandex Zen'da kullan",
+'opt_sys_minsearch'		=>  "Arama yapmak için minimum karakter sayısı",
+'opt_sys_minsearchd'	=>  "Arama alanındaki minimum karakter sayısını belirleyebilirsiniz. Kısa girdiler arama esnasında sunucuya yük olacaktır. En az dört karakter ile kısıtlamanızı öneririz.",
+'main_p_notice'			=>	"Notlar",
+'main_p_notice_1'		=>	"Plugin listesinde notu göster",
+'main_no_p_notice'		=>	"Buraya hatırlatıcı veya bilgi verici notlarınızı kaydedebilirsiniz. BB ve HTML etiklerini kullanabilirsiniz.",
+'opt_sys_ddate'			=>	"Özel tarih formatını reddet",
+'opt_sys_ddated'		=>	"Bu ayar etkinleştirildiğinde, Eğer makale tarihi {date=date format} etiketi ile gösteriliyorsa, ay adının dil dosyasındaki karşılığı kullanılacaktır. Ayar kapalı olduğunda ise, “1 январь” yerine “1 января” gösterilecektir.",
+'meta_robots'			=>	"Robots meta etiketi:",
+'opt_sys_minside'		=>	"Yüklenebilecek en küçük resim boyutları belirtin:",
+'opt_sys_minsided'		=>	"Bu özelliği iki şekilde kullanabilirsiniz:<br /><br /><b>Birincisi:</b> Yüklenecek resmin herhangi bir kenarına göre boyutlandırma yapmak için istediğiniz piksel değerini girin. Örnek: <b>400</b><br /><br /><b>İkincisi:</b> Yüklenecek resmin genişliğini ve yüksekliğini belirtin. Aralarında x olacak şekilde. Örnek: <b>100x100</b>.<br /><br />Resim belirtilen boyuttan küçük olduğunda sunucuya yüklenmeyecektir ve kullanıcıya bildirilecektir. Eğer, sunucuya yüklenecek resimlerin herhangi bir kısıtlamaya takılmasını istemiyorsanız 0 girin",
+'upload_error_7'		=>	"Yüklenecek resim boyutu {minsize} pixel'den küçük olamaz.",
+'xfield_xi22'			=>	"Sunucuya yüklenecek resim için minimum genişlik ve yüksekliği girebilirsiniz. Sadece bir taraf için boyutu girebilirsiniz – örneğin: 800 – veya iki taraf için de girebilirsiniz: örneğin, 800x600. Eğer herhangi bir kısıtlama olmasını istemiyorsanız, alanı boş bırakabilirsiniz.",
+// 13.3
+
 // 13.2
 'plugins_pinfo_1'		=>	"Yönetim panelinde, plugin ile birlikte belli işlemlerde aktif olacak PHP kodu girebilirsiniz:",
 'plugins_aсt_l12'		=>	"Başlangıçtan itibaren:",

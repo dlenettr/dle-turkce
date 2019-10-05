@@ -2,6 +2,10 @@
 
 $lang = array_merge($lang, array (
 
+// 13.3
+'admin_logs_action_119'		=>	"Plugin sıralaması değiştirildi",
+// 13.3
+
 // 13.1
 'admin_logs_action_118'		=>	"Kullanıcı filtresindeki engellemeyi düzenle:",
 // 13.1
@@ -152,7 +156,7 @@ $lang = array_merge($lang, array (
 'admin_logs_action_83'	=>	"Редактирование вопроса в разделе Вопрос-Ответ:",
 'admin_logs_action_84'	=>	"Добавление вопроса в разделе Вопрос-Ответ:",
 'admin_logs_action_85'	=>	"Удаление вопроса в разделе Вопрос-Ответ, ID:",
-'admin_logs_action_86'	=>	"Авторизация в админпанели сайта (авторизация по кукам). Переход со страницы:",
+'admin_logs_action_86'	=>	"Yönetici paneline giriş yapıldı (çerez ile). Geçiş yapılan sayfa:",
 // 9.4
 
 ));

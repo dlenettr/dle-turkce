@@ -1,9 +1,6 @@
-Datalife Engine için Türkçe Çeviri
+Datalife Engine için Türkçe Dil Dosyaları
 ----------------
 
-Sadece dil dosyalarını içermektedir. Eski sürümlerden itibaren sürekli üzerine eklenerek ortaya çıkan dil dosyası, gereksiz birçok satır barındırıyor.
-Bu sorunun önüne geçmek için her sürüm ile birlikte tüm satırlar karşılaştırılarak senkronize ediliyor.
+Sadece dil dosyalarını içermektedir. Sisteminizde kullanmak için [DLE Türkçe Yama](https://github.com/dlenettr/dle-turkce-yama) paketini kullanabilirsiniz.
 
-Amacımız: Temiz bir Türkçe dil paketi hazırlamak.
-
-Yardımcı olacak herkese teşekkürler.
+Her sürüm ile birlikte tüm satırlar karşılaştırılarak senkronize ediliyor.  Böylece değişen satırlar güncel tutuluyor.
